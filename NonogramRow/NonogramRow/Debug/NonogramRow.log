@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\mja50\source\repos\NonogramRow\NonogramRow\Source.cpp(39,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mja50\source\repos\NonogramRow\NonogramRow\Source.cpp(68,20): warning C4018: '<': signed/unsigned mismatch
+  NonogramRow.vcxproj -> C:\Users\mja50\source\repos\NonogramRow\Debug\NonogramRow.exe
