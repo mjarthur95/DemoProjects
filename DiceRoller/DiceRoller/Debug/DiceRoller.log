@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\mja50\source\repos\DiceRoller\DiceRoller\Source.cpp(65,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mja50\source\repos\DiceRoller\DiceRoller\Source.cpp(73,20): warning C4018: '<': signed/unsigned mismatch
+  DiceRoller.vcxproj -> C:\Users\mja50\source\repos\DiceRoller\Debug\DiceRoller.exe
