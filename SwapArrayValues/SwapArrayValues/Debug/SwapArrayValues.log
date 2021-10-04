@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\mja50\source\repos\SwapArrayValues\SwapArrayValues\Source.cpp(26,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mja50\source\repos\SwapArrayValues\SwapArrayValues\Source.cpp(41,20): warning C4018: '<': signed/unsigned mismatch
+  SwapArrayValues.vcxproj -> C:\Users\mja50\source\repos\SwapArrayValues\Debug\SwapArrayValues.exe
