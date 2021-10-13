@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\mja50\source\repos\ConvertNumbersBetweenBases\ConvertNumbersBetweenBases\Source.cpp(52,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mja50\source\repos\ConvertNumbersBetweenBases\ConvertNumbersBetweenBases\Source.cpp(132,50): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+  ConvertNumbersBetweenBases.vcxproj -> C:\Users\mja50\source\repos\ConvertNumbersBetweenBases\Debug\ConvertNumbersBetweenBases.exe
