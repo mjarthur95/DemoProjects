@@ -1,0 +1,95 @@
+/* This Stylesheet is only for use with pages within iframes */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* Body and Background */
+body {
+	background-color: lightgrey;
+}
+
+
+/* Headers and Footers */
+h1 {
+	font-size: 30px;
+	font-family: 'Franklin Gothic';
+	font-weight:bold;
+	padding: 10px 20px;
+}
+
+
+/* Grid, Tables, and Rows */
+.GridViewStyle {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	table-layout: auto;
+}
+
+.HeaderStyle {
+	border: 1px, solid, #ddd;
+	background-color: #008C8C;
+}
+
+	.HeaderStyle th {
+		padding: 5px 0px 5px 0px;
+		color: #333;
+		text-align: center;
+	}
+
+tr.RowStyle {
+	text-align: center;
+	font-family: 'Bell MT';
+	font-size: 14pt;
+	background-color: #F2EAE4;
+}
+
+tr.AlternatingRowStyle {
+	text-align: center;
+	font-family: 'Bell MT';
+	font-size: 14pt;
+	background-color: #88D4F2;
+}
+
+tr.RowStyle:hover {
+	cursor: pointer;
+	background-color: #f69542;
+}
+
+tr.AlternatingRowStyle:hover {
+	cursor: pointer;
+	background-color: #f69542;
+}
+
+
+/* Buttons */
+.submit-btn {
+	width: 20%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background: linear-gradient(to bottom, #2B4161 0%, #000000 100%);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.admin-btn {
+	width: 150px;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background: linear-gradient(to bottom, #2B4161 0%, #000000 100%);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}

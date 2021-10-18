@@ -1,0 +1,54 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+body {
+	background-color: slategrey;
+}
+.GridViewStyle {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	font-family: Arial, sans-serif;
+	table-layout: auto;
+	font-size: 14px;
+}
+.HeaderStyle {
+	border: 1px, solid, #ddd;
+	background-color: #008C8C;
+}
+.HeaderStyle th {
+	padding: 5px 0px 5px 0px;
+	color: #333;
+	text-align: center;
+}
+tr.RowStyle {
+	text-align: center;
+	background-color: #ffffff;
+}
+tr.AlternatingRowStyle {
+	text-align: center;
+	background-color: #78FFF2;
+}
+tr.RowStyle:hover {
+	cursor: pointer;
+	background-color: #f69542;
+}
+tr.AlternatingRowStyle:hover {
+	cursor: pointer;
+	background-color: #f69542;
+}
+.submit-btn {
+	width: 20%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background: linear-gradient(to bottom, #2B4161 0%, #000000 100%);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}

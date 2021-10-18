@@ -1,0 +1,260 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+
+/* Body and Background*/
+body {
+	background-color: #000000;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23222222' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23444444' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23666666' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23888888' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23aaaaaa' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23cccccc' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23EEE' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.Main {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+
+/* headers and footers*/
+.header {
+	padding: 15px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	background-color: #a9a9a9;
+	text-align: right;
+	color: black;
+	font-size: 8px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+}
+
+
+/* Form and Button Boxes */
+.main-box {
+	width: 1200px;
+	height: 75%;
+	position: relative;
+	margin: 2% auto;
+	background: #fff;
+	padding: 5px;
+}
+
+.form-box {
+	width: 250px;
+	height: fit-content();
+	position: relative;
+	margin: 6% auto;
+	background-color: #F2EAE4;
+	padding: 5px;
+	overflow: hidden;
+	top: 0px;
+	left: 0px;
+}
+
+.login-box{
+	width: 500px;
+	height: 50%;
+	position: relative;
+	margin: auto;
+	background-color: #F2EAE4;
+	padding: 5px;
+}
+
+.verify-box {
+	width: 300px;
+	height: fit-content();
+	position: relative;
+	margin: 6% auto;
+	background-color: #F2EAE4;
+	padding: 5px;
+}
+
+.button-box {
+	width: 1200px;
+	height: 50px;
+	position: relative;
+	margin: 1% auto;
+	display: flex;
+	justify-content: center;
+}
+
+.button-box2 {
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 125px;
+	position: relative;
+	box-shadow: 0 0 20px 9px #33ffcc1f;
+	border-radius: 30px;
+}
+
+
+/* Buttons */
+.verify-btn {
+	width: 100px;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	color: white;
+	margin: auto;
+	background: linear-gradient(to bottom, #2B4161 0%, #000000 100%);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.submit-btn {
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background: linear-gradient(to bottom, #2B4161 0%, #000000 100%);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.toggle-btn {
+	padding: 10px 25px;
+	cursor: pointer;
+	color: white;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	text-align: center;
+}
+
+#btn {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background: linear-gradient(to bottom, #2B4161 50%, #000000);
+	border-radius: 30px;
+}
+
+.menu-btn {
+	width: 175px;
+	padding: 5px 20px;
+	font-size: xx-small;
+	cursor: pointer;
+	display: block;
+	color: white;
+	margin: auto;
+	background: linear-gradient(to bottom, #2B4161 0%, #000000 100%);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+
+/* Input Groups */
+.input-group {
+	top: 100px;
+	position: relative;
+	margin: auto;
+	width: 280px;
+}
+
+.input-group2 {
+	top: 25px;
+	position: relative;
+	width: 280px;
+}
+
+
+/* Textboxes */
+.input-field {
+	width: 100%;
+	padding: 10px 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background-color: #88D4F2;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+/* Checkboxes */
+.check-box {
+	text-align: center;
+	margin-top: 10px;
+	position: relative;
+}
+
+	.check-box input {
+		margin: 0px 5px 0px 5px;
+	}
+
+	.check-box label {
+		color: #777;
+		font-size: 12px;
+		padding: 5px;
+		position: absolute;
+	}
+
+
+/* Tables and List Items */
+.catalog_table {
+	width: 100%;
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 25px;
+	text-align: left;
+}
+
+ul {
+	list-style-type: none;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 50px;
+}
+
+li {
+	float: left;
+	padding: 10px;
+}
+
+	li a {
+		display: list-item;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		font-size: 20px;
+		text-decoration: none;
+	}
+
+		li a:hover {
+			background: linear-gradient(45deg, #05abe0 0%,#8200f4 100%)
+		}

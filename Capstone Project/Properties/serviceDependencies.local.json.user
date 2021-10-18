@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2021-04-23T19:32:11.9245442Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-04-23T19:33:51.2586696Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "b6fe999a-4fe9-4862-b3c1-92a941f860ae"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "TLDRCapstone"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="constr-Web.config Connection String" description="constr Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFileName=C:\Brad School\Spring 2021\Capstone Project\TLDR Capstone\App_Data\ProjectDB.mdf;Integrated Security=True;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Capstone\ Project\\New\ folder\\TLDR-Capstone\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='constr']/@connectionString" />
+  </parameter>
+  <parameter name="capstoneDatabase-Web.config Connection String" description="capstoneDatabase Connection String used in web.config by the application to access the database." defaultValue="Data Source=capstonedatabase.database.windows.net;Initial Catalog=capstoneDatabase;User ID=master-root;Password=tldr!Password;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Capstone\ Project\\New\ folder\\TLDR-Capstone\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='capstoneDatabase']/@connectionString" />
+  </parameter>
+</parameters>
