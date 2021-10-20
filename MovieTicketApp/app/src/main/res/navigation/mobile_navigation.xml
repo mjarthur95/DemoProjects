@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_theaters">
+
+    <fragment
+        android:id="@+id/navigation_theaters"
+        android:name="com.example.movieticketapp.fragments.TheaterFragment"
+        android:label="@string/title_theater"
+        tools:layout="@layout/fragment_theater" />
+
+    <fragment
+        android:id="@+id/navigation_movies"
+        android:name="com.example.movieticketapp.fragments.MovieFragment"
+        android:label="@string/title_movie"
+        tools:layout="@layout/fragment_movie" />
+
+    <fragment
+        android:id="@+id/navigation_tickets"
+        android:name="com.example.movieticketapp.fragments.TicketFragment"
+        android:label="@string/title_tickets"
+        tools:layout="@layout/fragment_ticket" />
+</navigation>

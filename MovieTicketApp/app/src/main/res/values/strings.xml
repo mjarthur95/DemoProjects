@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MovieTicketApp</string>
+    <string name="title_theater">Theaters</string>
+    <string name="title_movie">Movies</string>
+    <string name="title_tickets">My Tickets</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="dialog_msg">"Would you like to view the available seats?"</string>
+    <string name="dialog_title">"Purchase Ticket"</string>
+    <string name="yes_btn_label">"Yes"</string>
+    <string name="no_btn_label">"No"</string>
+    <string name="screen">"Screen"</string>
+    <string name="buy_tickets">"Buy Tickets"</string>
+    <string name="available">"Available"</string>
+    <string name="selected">"Selected"</string>
+    <string name="unavailable">"Unavailable"</string>
+    <string name="confirm">"Confirm Payment"</string>
+    <string name="theater">"Theaters"</string>
+    <string name="movie">"Movies"</string>
+    <string name="tickets">"Tickets"</string>
+    <string name="home_activity">"Home"</string>
+    <string name="payment_screen">"Layout for payment screen. Does not accept actual payment."</string>
+</resources>

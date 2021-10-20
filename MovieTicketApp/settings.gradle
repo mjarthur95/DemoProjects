@@ -1,0 +1,3 @@
+include ':seatlayout'
+include ':app'
+rootProject.name = "MovieTicketApp"
